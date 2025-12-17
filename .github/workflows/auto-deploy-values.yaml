@@ -1,9 +1,0 @@
-ingress:
-  enabled: true
-  path: "/"
-  annotations:
-    cert-manager.io/cluster-issuer: "letsencrypt-prod"
-    kubernetes.io/ingressClassName: "nginx"
-    nginx.ingress.kubernetes.io/auth-realm: "Authentication Required"
-    nginx.ingress.kubernetes.io/auth-secret: "basic-welterbe-auth"
-
